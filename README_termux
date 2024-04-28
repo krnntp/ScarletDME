@@ -1,0 +1,5 @@
+I have gotten qm to successfully compile under the glibc umbrella in Termux... the next steps will be, devising an edit for the entire body of code, both C and dynamic, to replace all references to qmsys and qmusers with the Android app uid of any guven termux installation.
+
+As if that wasn't bad enough, I will also need to replace file and directory references with something that makes sense under Termux. And make sure semaphores are working correctly, because that seems to be an emulation under Termux.
+
+If someone could get MongoDB working for Termux, this ought to be possible... so, wish me luck.
